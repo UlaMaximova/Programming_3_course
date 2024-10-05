@@ -1,0 +1,14 @@
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\bin\Debug\net8.0\1.1.exe
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\bin\Debug\net8.0\1.1.deps.json
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\bin\Debug\net8.0\1.1.runtimeconfig.json
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\bin\Debug\net8.0\1.1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\bin\Debug\net8.0\1.1.pdb
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.AssemblyInfoInputs.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.AssemblyInfo.cs
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.csproj.CoreCompileInputs.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\refint\1.1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.pdb
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\1.1.genruntimeconfig.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\Homework\obj\Debug\net8.0\ref\1.1.dll
