@@ -1,0 +1,29 @@
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.exe
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.deps.json
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.runtimeconfig.json
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.pdb
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.AssemblyInfoInputs.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.AssemblyInfo.cs
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.csproj.CoreCompileInputs.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\refint\КР Задание 1.dll
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.pdb
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.genruntimeconfig.cache
+C:\Users\Юля\Desktop\Базы данных\дз c#\КР\КР Задание 1\КР Задание 1\obj\Debug\net8.0\ref\КР Задание 1.dll
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.exe
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.deps.json
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.runtimeconfig.json
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.dll
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\bin\Debug\net8.0\КР Задание 1.pdb
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.AssemblyInfoInputs.cache
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.AssemblyInfo.cs
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.csproj.CoreCompileInputs.cache
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.sourcelink.json
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.dll
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\refint\КР Задание 1.dll
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.pdb
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\КР Задание 1.genruntimeconfig.cache
+C:\Users\Юля\Documents\GitHub\Programming_3_course\КР 1\КР Задание 1\КР Задание 1\obj\Debug\net8.0\ref\КР Задание 1.dll
