@@ -1,44 +1,43 @@
 ﻿using System;
-
 class ComplexNumber
 {
-    public double Real { get; set; }  // Действительная часть
-    public double Imaginary { get; set; }  // Мнимая часть
+    private double realPart;
+    private double imaginaryPart;
 
-    // Конструктор
     public ComplexNumber(double real, double imaginary)
     {
-        Real = real;
-        Imaginary = imaginary;
+        realPart = real;
+        imaginaryPart = imaginary;
     }
 
-    // Сложение комплексных чисел
+    //Сложение
     public ComplexNumber Add(ComplexNumber other)
     {
-        return new ComplexNumber(this.Real + other.Real, this.Imaginary + other.Imaginary);
+        return new ComplexNumber(realPart + other.realPart, imaginaryPart + other.imaginaryPart);
     }
 
-    // Умножение комплексных чисел
+    //Умножение
     public ComplexNumber Multiply(ComplexNumber other)
     {
-        double real = this.Real * other.Real - this.Imaginary * other.Imaginary;
-        double imaginary = this.Real * other.Imaginary + this.Imaginary * other.Real;
+        double real = (realPart * other.realPart) - (imaginaryPart * other.imaginaryPart);
+        double imaginary = (realPart * other.imaginaryPart) + (imaginaryPart * other.realPart);
         return new ComplexNumber(real, imaginary);
     }
 
-    // Деление комплексных чисел
-    public ComplexNumber Divide(ComplexNumber other)
+
+    //Деление
+    public ComplexNumber Del(ComplexNumber other)
     {
-        double denominator = other.Real * other.Real + other.Imaginary * other.Imaginary;
-        double real = (this.Real * other.Real + this.Imaginary * other.Imaginary) / denominator;
-        double imaginary = (this.Imaginary * other.Real - this.Real * other.Imaginary) / denominator;
+        double denominator = (other.realPart * other.realPart) + (other.imaginaryPart * other.imaginaryPart);
+        double real = ((realPart * other.realPart) + (imaginaryPart * other.imaginaryPart)) / denominator;
+        double imaginary = ((imaginaryPart * other.realPart) - (realPart * other.imaginaryPart)) / denominator;
         return new ComplexNumber(real, imaginary);
     }
 
-    // Возведение в степень
-    public ComplexNumber Pow(int exponent)
+    //Возведение в степень
+    public ComplexNumber Step(int exponent)
     {
-        ComplexNumber result = new ComplexNumber(1, 0); // Начальное значение - 1
+        ComplexNumber result = new ComplexNumber(1, 0); // Начальное значение 1 + 0i
         for (int i = 0; i < exponent; i++)
         {
             result = result.Multiply(this);
@@ -46,36 +45,35 @@ class ComplexNumber
         return result;
     }
 
-    // Извлечение квадратного корня
-    public ComplexNumber Sqrt()
+    //Извлечение корня
+    public ComplexNumber Square()
     {
-        double magnitude = Math.Sqrt(this.Magnitude());
-        double angle = this.Angle() / 2;
+        double modulus = Modul();
+        double angle = Angle();
+        double sqrtModulus = Math.Sqrt(modulus);
+        double halfAngle = angle / 2;
 
-        double real = magnitude * Math.Cos(angle);
-        double imaginary = magnitude * Math.Sin(angle);
+        double real = sqrtModulus * Math.Cos(halfAngle);
+        double imaginary = sqrtModulus * Math.Sin(halfAngle);
         return new ComplexNumber(real, imaginary);
     }
 
-    // Модуль комплексного числа
-    public double Magnitude()
+    //Нахождение модуля
+    public double Modul()
     {
-        return Math.Sqrt(Real * Real + Imaginary * Imaginary);
+        return Math.Sqrt((realPart * realPart) + (imaginaryPart * imaginaryPart));
     }
 
-    // Угол (аргумент) комплексного числа в радианах
+    //Вычисление угла
     public double Angle()
     {
-        return Math.Atan2(Imaginary, Real);
+        return Math.Atan2(imaginaryPart, realPart);
     }
 
-    // Переопределение метода ToString для удобного вывода
+    //Вывод комплексного числа
     public override string ToString()
     {
-        if (Imaginary >= 0)
-            return $"{Real} + {Imaginary}i";
-        else
-            return $"{Real} - {Math.Abs(Imaginary)}i";
+        return $"{realPart} + {imaginaryPart}i";
     }
 }
 
@@ -83,43 +81,31 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Ввод первого комплексного числа
-        Console.WriteLine("Введите действительную и мнимую часть первого комплексного числа:");
-        Console.Write("Действительная часть: ");
-        double real1 = double.Parse(Console.ReadLine());
-        Console.Write("Мнимая часть: ");
-        double imaginary1 = double.Parse(Console.ReadLine());
-        ComplexNumber z1 = new ComplexNumber(real1, imaginary1);
+        ComplexNumber complex1 = new ComplexNumber(5, 8);
+        ComplexNumber complex2 = new ComplexNumber(7, 2);
 
-        // Ввод второго комплексного числа
-        Console.WriteLine("Введите действительную и мнимую часть второго комплексного числа:");
-        Console.Write("Действительная часть: ");
-        double real2 = double.Parse(Console.ReadLine());
-        Console.Write("Мнимая часть: ");
-        double imaginary2 = double.Parse(Console.ReadLine());
-        ComplexNumber z2 = new ComplexNumber(real2, imaginary2);
+        Console.WriteLine($"Комплексное число 1: {complex1}");
+        Console.WriteLine($"Комплексное число 2: {complex2}");
 
-        // Выполнение операций и вывод результатов
-        ComplexNumber sum = z1.Add(z2);
+        ComplexNumber sum = complex1.Add(complex2);
         Console.WriteLine($"Сумма: {sum}");
 
-        ComplexNumber product = z1.Multiply(z2);
+        ComplexNumber product = complex1.Multiply(complex2);
         Console.WriteLine($"Произведение: {product}");
 
-        ComplexNumber division = z1.Divide(z2);
-        Console.WriteLine($"Деление: {division}");
+        ComplexNumber quotient = complex1.Del(complex2);
+        Console.WriteLine($"Частное: {quotient}");
 
-        Console.Write("Введите степень для возведения в степень первого числа: ");
-        int exponent = int.Parse(Console.ReadLine());
-        ComplexNumber pow = z1.Pow(exponent);
-        Console.WriteLine($"Первое число в степени {exponent}: {pow}");
+        ComplexNumber power = complex1.Step(2);
+        Console.WriteLine($"Возведение в степень 2: {power}");
 
-        ComplexNumber sqrt = z1.Sqrt();
-        Console.WriteLine($"Квадратный корень из первого числа: {sqrt}");
+        ComplexNumber sqrt = complex1.Square();
+        Console.WriteLine($"Квадратный корень: {sqrt}");
 
-        double magnitude = z1.Magnitude();
-        double angle = z1.Angle();
-        Console.WriteLine($"Модуль первого числа: {magnitude}");
-        Console.WriteLine($"Угол первого числа (в радианах): {angle}");
+        double modulus = complex1.Modul();
+        Console.WriteLine($"Модуль: {modulus}");
+
+        double angle = complex1.Angle();
+        Console.WriteLine($"Угол: {angle}");
     }
 }

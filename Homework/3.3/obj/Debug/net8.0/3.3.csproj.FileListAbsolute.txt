@@ -12,3 +12,17 @@ C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\3.3\obj\Debug\net
 C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.pdb
 C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.genruntimeconfig.cache
 C:\Users\Юля\Desktop\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\ref\3.3.dll
+D:\учеба\Базы данных\дз c#\Homework\3.3\bin\Debug\net8.0\3.3.exe
+D:\учеба\Базы данных\дз c#\Homework\3.3\bin\Debug\net8.0\3.3.deps.json
+D:\учеба\Базы данных\дз c#\Homework\3.3\bin\Debug\net8.0\3.3.runtimeconfig.json
+D:\учеба\Базы данных\дз c#\Homework\3.3\bin\Debug\net8.0\3.3.dll
+D:\учеба\Базы данных\дз c#\Homework\3.3\bin\Debug\net8.0\3.3.pdb
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.AssemblyInfoInputs.cache
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.AssemblyInfo.cs
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.csproj.CoreCompileInputs.cache
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.dll
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\refint\3.3.dll
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.pdb
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\3.3.genruntimeconfig.cache
+D:\учеба\Базы данных\дз c#\Homework\3.3\obj\Debug\net8.0\ref\3.3.dll
